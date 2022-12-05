@@ -1,15 +1,15 @@
-pi = 3.14159
-radius = 2.2
-# area of circle equation <- this is a comment
-area = pi*(radius**2)
-print(area)
+# pi = 3.14159
+# radius = 2.2
+# # area of circle equation <- this is a comment
+# area = pi*(radius**2)
+# print(area)
 
-# change values of radius <- another comment
-# use comments to help others understand what you are doing in code
-radius = radius + 1
-print(area)     # area doesn't change
-area = pi*(radius**2)
-print(area)
+# # change values of radius <- another comment
+# # use comments to help others understand what you are doing in code
+# radius = radius + 1
+# print(area)     # area doesn't change
+# area = pi*(radius**2)
+# print(area)
 
 
 #############################
@@ -19,11 +19,11 @@ print(area)
 # do CTRL+1 again to uncomment them
 # try it on the next few lines below!
 
-#area = pi*(radius**2)
-#print(area)
-#radius = radius + 1
-#area = pi*(radius**2)
-#print(area)
+# area = pi*(radius**2)
+# print(area)
+# radius = radius + 1
+# area = pi*(radius**2)
+# print(area)
 
 #############################
 #### AUTOCOMPLETE #######
@@ -35,8 +35,16 @@ print(area)
 # define a variable
 a_very_long_variable_name_dont_name_them_this_long_pls = 0
 
+
 # below, start typing a_ve then hit tab... cool, right!
 # use autocomplete to change the value of that variable to 1
 
 # use autocomplete to write a line that prints the value of that long variable
 # notice that Spyder also automatically adds the closed parentheses for you!
+import random
+print(random.randint(16,272))
+#move left,move right , read ,write,scan,do nothing -6 primitives.
+
+# 3"hi"  #syntax error
+# 3+"hi" #static semantic error  (syntactically correct. operand operator operand)
+# # no error but different behaviour occurs than you intended (crashes,infinite loop,different answer than expected). 

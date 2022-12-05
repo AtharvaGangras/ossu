@@ -1,24 +1,24 @@
 ###################
 ## EXAMPLE: strings 
 ###################
-#hi = "hello there"
-#name = "ana"
-#greet = hi + name  
-#print(greet)
-#greeting = hi + " " + name
-#print(greeting)
-#silly = hi + (" " + name)*3
-#print(silly)
+# hi = "hello there"
+# name = "ana"
+# greet = hi + name  
+# print(greet)
+# greeting = hi + " " + name
+# print(greeting)
+# silly = hi + (" " + name)*3
+# print(silly)
 
 ####################
 ## EXAMPLE: output 
 ####################
-#x = 1
-#print(x)
-#x_str = str(x)
-#print("my fav number is", x, ".", "x=", x)
-#print("my fav number is", x_str + "." + "x=" + x_str)
-#print("my fav number is" + x_str + "." + "x=" + x_str)
+# x = 1
+# print(x)
+# x_str = str(x)
+# print("my fav number is", x, ".", "x=", x)
+# print("my fav number is", x_str + "." + "x=" + x_str)
+# print("my fav number is" + x_str + "." + "x=" + x_str)
 
 
 ####################
@@ -63,15 +63,20 @@
 ## twice and flip the table any more times than that. 
 ## Hint: use a counter
 ####################
-#n = input("You are in the Lost Forest\n****************\n****************\n :)\n****************\n****************\nGo left or right? ")
-#while n == "right" or n == "Right":
-#    n = input("You are in the Lost Forest\n****************\n******       ***\n  (â•¯Â°â–¡Â°ï¼‰â•¯ï¸µ â”»â”â”»\n****************\n****************\nGo left or right? ")
-#print("\nYou got out of the Lost Forest!\n\o/")
+# n = input("You are in the Lost Forest\n****************\n****************\n :)\n****************\n****************\nGo left or right? ")
+# counter = 0
+# while n == "right" or n == "Right":
+#     counter +=1
+#     if(counter<3):
+#         n = input("You are in the Lost Forest\n****************\n******       ***\n  :(\n****************\n****************\nGo left or right? ")
+#     else:    
+#         n = input("You are in the Lost Forest\n****************\n******       ***\n  (â•¯Â°â–¡Â°ï¼‰â•¯ï¸µ â”»â”â”»\n****************\n****************\nGo left or right? ")
+# print("\nYou got out of the Lost Forest!\n\o/")
 
 
 
-#n = 0
-#while n < 5:
+# n = 0
+# while n < 5:
 #    print(n)
 #    n = n+1
 
@@ -125,3 +130,5 @@
 ## Modify the perfect squares example to print 
 ## imaginary perfect sqrts if given a negative num.
 ####################
+# for i in range(0.1,1.0,0.1): #range needs to have integer
+#     print(i)
