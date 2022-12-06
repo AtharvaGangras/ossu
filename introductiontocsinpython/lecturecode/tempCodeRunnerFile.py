@@ -1,9 +1,13 @@
-n = input("You are in the Lost Forest\n****************\n****************\n :)\n****************\n****************\nGo left or right? ")
-# counter = 0
-# while n == "right" or n == "Right":
-#     counter +=1
-#     if(counter<3):
-#         n = input("You are in the Lost Forest\n****************\n******       ***\n  :(\n****************\n****************\nGo left or right? ")
-#     else:    
-#         n = input("You are in the Lost Forest\n****************\n******       ***\n  (â•¯Â°â–¡Â°ï¼‰â•¯ï¸µ â”»â”â”»\n****************\n****************\nGo left or right? ")
-# print("\nYou got out of the Lost Forest!\n\o/")
+ans = 0
+neg_flag = False
+x = int(input("Enter an integer: "))
+if x < 0:
+   neg_flag = True
+while ans**2 < x:
+   ans = ans + 1
+if ans**2 == x:
+   print("Square root of", x, "is", ans)
+else:
+   print(x, "is not a perfect square")
+   if neg_flag:
+       print("Just checking... did you mean", -x, "?")
